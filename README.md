@@ -1,16 +1,44 @@
-# React + Vite
+# 🍎 提醒事项 - Apple-style Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+简洁优雅的待办事项管理应用，支持 PWA 离线使用。
 
-Currently, two official plugins are available:
+## ✨ 特性
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🍎 Apple 风格 UI 设计
+- 🌙 自动深色模式
+- 💾 LocalStorage 本地存储
+- 📱 PWA 支持（可添加到桌面）
+- 🔌 离线可用
+- ⚡ Vite + React 构建
 
-## React Compiler
+## 🚀 在线体验
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+访问: https://aws-yz.github.io/todo-app
 
-## Expanding the ESLint configuration
+## 📱 添加到桌面
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**iOS Safari:**
+1. 打开网址
+2. 点击分享按钮
+3. 选择 "添加到主屏幕"
+
+**Android Chrome:**
+1. 打开网址
+2. 点击菜单 → "添加到主屏幕"
+
+## 🛠️ 本地开发
+
+```bash
+npm install
+npm run dev
+```
+
+## 📦 构建
+
+```bash
+npm run build
+```
+
+## License
+
+MIT
